@@ -6,12 +6,12 @@
     <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container mx-auto my-5 border-bottom border-3 border-dark">
+    <div class="container mx-auto my-5 border-bottom border-3 border-dark"> <!-- mx-auto HORIZONTAL CENTER; my-5 VERTICAL MARGIN-->
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm">
-                <img class="img-thumbnail rounded-4 border-info w-75 h-50" src="images/pc.jpg" style="width: 50%" alt="PC-Photo" />
-                <h3 class="text-info mb-0">PC</h3>
-                <p class="fw-semibold text-decoration-underline mb-1">$1500 <span class="fw-normal">total</span></p>
+                <img class="img-thumbnail rounded-4 border-info w-75 h-50" src="images/pc.jpg" style="width: 50%" alt="PC-Photo" /> <!-- img-thumbnail GIVE AND IMAGE ROUNDED 1PX BORDER APPEARANCE-->
+                <h3 class="text-info mb-0">PC</h3> <!-- mb MARGIN BOTTOM -->
+                <p class="fw-semibold text-decoration-underline mb-1">$1500 <span class="fw-normal">total</span></p> <!-- fw FONT-WEIGHT -->
                 <button type="button" class="btn btn-dark w-25 mb-5 fw-semibold">Buy</button>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -23,7 +23,7 @@
             <div class="col-lg-4 col-md-6 col-sm">
                 <img class="img-thumbnail rounded-4 border-info w-75 h-50" src="images/smartphone.jpg" style="width: 50%" alt="Smartphone-Photo" />
                 <h3 class="text-info mb-0">Smartphone</h3>
-                <p class="fw-semibold text-decoration-underline mb-1">$330 <span class="fw-normal">total</span></p>
+                <p class="fw-semibold text-decoration-underline mb-1">$330 <span class="fw-normal">total</span></p> <!-- text-decoration-underline UNDERLINES TEXT-->
                 <button type="button" class="btn btn-dark w-25 mb-5 fw-semibold">Buy</button>
             </div>
         </div>
@@ -31,3 +31,23 @@
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<!--
+    What I have learned
+    classes:
+        ROW COLS
+        row - creates a row of the width of the screen
+        col - creates a collumn of the width of the screen
+
+        COL DIVISION
+        col-[num] (num = [1;12]) - how many spaces takes one collumn in a row
+        
+        SCREENS
+        col-lg  - for huge screens (PC)
+        col-md  - for midium screens (Laptop, Tablet)
+        col-sm  - for small screens (Smartphone)
+
+        SCREENS DIVISION
+        col-lg-[num], col-md-[num], col-sm-[num] -- in [num] we specify how many space take up col in different screens
+        
+-->
